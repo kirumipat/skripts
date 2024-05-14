@@ -155,17 +155,6 @@ REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\cs2" /v "Rem
 REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\cs2" /v "Remote Port" /t REG_SZ /d "*" /f
 REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\cs2" /v "throttle Rate" /t REG_SZ /d "-1" /f
 REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\cs2" /v "version" /t REG_SZ /d "1.0" /f
-REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\cs2" /v "Application Name" /t REG_SZ /d "cs2.exe" /f 
-REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\cs2" /v "DSCP value" /t REG_SZ /d "46" /f
-REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\cs2" /v "Local IP" /t REG_SZ /d "*" /f
-REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\cs2" /v "Local IP Prefix Length" /t REG_SZ /d "*" /f
-REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\cs2" /v "Local Port" /t REG_SZ /d "*" /f
-REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\cs2" /v "Protocol" /t REG_SZ /d "UDP" /f
-REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\cs2" /v "Remote IP" /t REG_SZ /d "*" /f
-REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\cs2" /v "Remote IP Prefix Length" /t REG_SZ /d "*" /f
-REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\cs2" /v "Remote Port" /t REG_SZ /d "*" /f
-REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\cs2" /v "throttle Rate" /t REG_SZ /d "-1" /f
-REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\cs2" /v "version" /t REG_SZ /d "1.0" /f
 REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\apex" /v "Application Name" /t REG_SZ /d "r5apex.exe" /f 
 REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\apex" /v "DSCP value" /t REG_SZ /d "46" /f
 REG ADD "HKEY_LOCAL_MACHINE\SOftWARE\Policies\Microsoft\Windows\QoS\apex" /v "Local IP" /t REG_SZ /d "*" /f
